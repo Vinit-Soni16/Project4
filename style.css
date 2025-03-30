@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  width: 100%;
+  padding: 1.5rem;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .hero-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .hero-text img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .hero-text .text {
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+}
+main .hero-text .text p {
+  text-transform: uppercase;
+}
+main .image-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+main .image-text .top {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .image-text .top img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .image-text .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+main .image-text .bottom h1 {
+  font-size: 2.7em;
+  font-weight: 200;
+  line-height: 1;
+  text-transform: uppercase;
+}
+main .image-text .bottom p {
+  font-size: 1.4em;
+  font-weight: 200;
+  font-family: monospace;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+main .image-text .bottom .services {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+main .image-text .bottom .services .service {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .image-text .bottom .services .service p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.7em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main .verticle-text {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+main .verticle-text .top {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .verticle-text .top img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .verticle-text .bottom {
+  display: flex;
+  gap: 2em;
+}
+main .verticle-text .bottom p {
+  writing-mode: vertical-rl;
+  padding-top: 0.5em;
+}
+main .verticle-text .bottom .text h1 {
+  font-size: 3em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+main .verticle-text .bottom .text p {
+  writing-mode: initial;
+  line-height: 1.5;
+  font-family: monospace;
+  font-size: 1.5em;
+  opacity: 0.6;
+}
+
+.thired-text {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.thired-text h1 {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.thired-text hr {
+  margin-top: 2rem;
+}
+.thired-text h5 {
+  margin-top: 1rem;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.thired-text h3 {
+  margin-top: 3rem;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.thired-text p {
+  margin-top: 1rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family: monospace;
+  opacity: 0.6;
+}
+
+.fourth-text {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.fourth-text .mid {
+  margin-top: 4rem;
+  width: 100%;
+  aspect-ratio: 1/0;
+}
+.fourth-text .mid img {
+  margin-top: 3rem;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.fourth-text .mid h3 {
+  margin-top: 3rem;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.fivth-text {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.fivth-text .mid-last {
+  width: 100%;
+}
+.fivth-text .mid-last h1 {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.fivth-text .mid-last p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  opacity: 0.6;
+  line-height: 1.5rem;
+}
+.fivth-text .mid-last img {
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.fivth-text .mid-last h3 {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.six-text {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.six-text .last1 {
+  width: 100%;
+}
+.six-text .last1 h1 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.six-text .last1 p {
+  opacity: 0.6;
+  font-size: 1.1rem;
+}
+.six-text .last1 h2 {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.six-text .last1 h3 {
+  margin-top: 0.7rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 900;
+  opacity: 0.5;
+}
+.six-text .last1 hr {
+  margin-top: 1rem;
+}
+.six-text .last1 .at {
+  margin-top: 3rem;
+}
+
+.seven-text {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.seven-text .last2 {
+  width: 100%;
+}
+.seven-text .last2 h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.seven-text .last2 p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.seven-text .last3 {
+  width: 100%;
+}
+.seven-text .last3 h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+.seven-text .last3 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 1rem;
+}
+.seven-text .last3 h4 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.seven-text .last3 p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.6;
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+.seven-text hr {
+  margin-top: 6rem;
+}
+.seven-text .lastt {
+  width: 100%;
+}
+.seven-text .lastt h5 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.seven-text .lastt h1 {
+  margin-top: 0.6rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.seven-text .end {
+  margin-top: 2rem;
+  width: 100%;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+.seven-text .end h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.seven-text .end h2 {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 4rem;
+}
+.seven-text .end .btn {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 35%;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1080px) {
+  main {
+    padding: 4rem;
+    gap: 4rem;
+  }
+  main .image-text {
+    flex-direction: row-reverse;
+    gap: 4em;
+  }
+  main .image-text .bottom h1 {
+    font-size: 5em;
+    letter-spacing: 0.05em;
+  }
+  main .image-text .bottom p {
+    font-size: 2em;
+  }
+  main .image-text .bottom .services {
+    margin-top: auto;
+  }
+  main .image-text .bottom .services .service p {
+    font-size: 2em;
+  }
+  main .verticle-text {
+    flex-direction: row;
+    gap: 4em;
+  }
+  main .verticle-text .top {
+    width: 30%;
+  }
+  main .verticle-text .bottom {
+    width: 70%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  main .verticle-text .bottom .text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .verticle-text .bottom .text h1 {
+    font-size: 6em;
+  }
+  main .verticle-text .bottom .text p {
+    margin-top: auto;
+  }
+  .last3 {
+    width: 100%;
+  }
+  .last3 h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    text-transform: uppercase;
+  }
+  .last3 img {
+    height: 50%;
+    width: 10%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: 1rem;
+  }
+  .last3 h4 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .last3 p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.6;
+    text-transform: capitalize;
+    margin-top: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
